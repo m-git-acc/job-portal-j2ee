@@ -77,7 +77,7 @@
                             <div class="col-md-12 display_job_div">
                                 <div class="row">
                                     <div class="col-md-2">
-                                        <img src="images/smartprogramminglogo.png" height="50" />
+                                        <img src="company-logo/<jsp:expression>c_logo</jsp:expression>" height="50" />
                                     </div>
                                     <div class="col-md-10">
                                         <b> <jsp:expression>c_name</jsp:expression></b> <span style="font-size: 12px; color: #9f9d9d;"> (<jsp:expression>c_email</jsp:expression>)</span> <br> <br>

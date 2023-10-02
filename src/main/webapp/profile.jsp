@@ -7,6 +7,8 @@
 <%@page import="java.sql.DriverManager"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
+<jsp:include page="CheckCookie"></jsp:include>
+    
 <jsp:declaration>Connection con=null;</jsp:declaration>
 
 <jsp:scriptlet>

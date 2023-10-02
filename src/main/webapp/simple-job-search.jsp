@@ -6,6 +6,8 @@
          pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 
+<jsp:include page="CheckCookie"></jsp:include>
+
 <jsp:scriptlet>
     String email=(String)session.getAttribute("session_email");
 </jsp:scriptlet>

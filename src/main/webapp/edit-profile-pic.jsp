@@ -1,5 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
+<jsp:include page="CheckCookie"></jsp:include>
+
 <jsp:scriptlet>
     String name = (String) session.getAttribute("session_name");
     String profile_pic = (String) session.getAttribute("session_profilepic");
@@ -15,7 +17,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title> Smart Programming - Upload Profile Pic </title>
+        <title> WELCOME SIR - Profile </title>
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
