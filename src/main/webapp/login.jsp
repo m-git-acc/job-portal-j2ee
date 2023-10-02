@@ -1,10 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
          pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
+
+<jsp:include page="CheckCookie"></jsp:include>
+
 <html>
     <head>
         <meta charset="ISO-8859-1">
-        <title> Login - Smart Programming </title>
+        <title> Login - welcome sir </title>
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>

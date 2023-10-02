@@ -5,6 +5,9 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
          pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
+
+<jsp:include page="CheckCookie"></jsp:include>
+    
 <jsp:declaration>
     String jobid;
 </jsp:declaration>
@@ -48,7 +51,6 @@
                 <div class="row">
                     <div class="col-md-3">
                         <ul>
-                            <li> <a href=""> Smart Programming </a> </li>
                             <li> <a href=""> Infosys </a> </li>
                             <li> <a href=""> Wipro </a> </li>
                             <li> <a href=""> IBM </a> </li>
@@ -224,7 +226,6 @@
                 </div>
                 <div class="col-md-3">
                     <ul>
-                        <li> <a href=""> Smart Programming </a> </li>
                         <li> <a href=""> Infosys </a> </li>
                         <li> <a href=""> Wipro </a> </li>
                         <li> <a href=""> IBM </a> </li>

@@ -1,12 +1,12 @@
-<%@page import="com.extra.DBConnection"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.PreparedStatement"%>
+<%@page import="com.extra.DBConnection"%>
 <%@page import="java.sql.Connection"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
          pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 
-<%-- <jsp:include page="CheckCookie"></jsp:include> --%>
+<jsp:include page="CheckCookie"></jsp:include>
 
 <jsp:scriptlet>
     String email=(String)session.getAttribute("session_email");
@@ -78,7 +78,7 @@
                             String id,job_profile, company, experience, description, date1, time1;
                             try
                             {
-                                 Connection con=DBConnection.getConnect();
+                                Connection con=DBConnection.getConnect();
                                 
                                 PreparedStatement ps=con.prepareStatement("select * from jobs");
                                 ResultSet rs=ps.executeQuery();

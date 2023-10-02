@@ -79,7 +79,7 @@
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.89797297175!2d77.04417439181661!3d28.52755440779233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1695228589896!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"  width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1000.611528507549!2d76.70699078730385!3d30.712056204048775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x616dfc7292ce7034!2sSmart%20Programming!5e0!3m2!1sen!2sin!4v1608027138020!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                     <div class="col-md-2"></div>
                 </div>

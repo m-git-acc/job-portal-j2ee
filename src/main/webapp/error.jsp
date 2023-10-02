@@ -12,8 +12,11 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
     <body>
-        <div class="alert alert-danger alert-dismissible fade show" style="text-align: center" role="alert">
-            <strong> Error :: </strong> Some error occured, please try again...!!
+        <jsp:scriptlet>
+            String message=(String)request.getAttribute("error_message");
+        </jsp:scriptlet>
+        <div class="alert alert-danger alert-dismissible" style="text-align: center" role="alert">
+            <strong> Error :: </strong> <jsp:expression>message</jsp:expression>
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
